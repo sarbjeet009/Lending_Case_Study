@@ -1,23 +1,38 @@
-\# Loan Default Risk Analysis
+# Lending_Case_Study
 
-\## Objective
+## Table of Contents
+- [General Info](#general-info)
+- [Conclusions](#conclusions)
+- [Technologies Used](#technologies-used)
+- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
 
-To identify factors that influence loan default risk using Exploratory Data Analysis (EDA) on the Lending Club dataset.
+## General Info
+-**Project_Name :** Lending_Case_Study: To assist a consumer finance company in minimising financial losses, this study analyses the factors that lead to loan defaults.
+**History:** The company's speciality is offering urban clients several kinds of loans. Lending carries enormous financial risks that can be significantly reduced by identifying trends that point to a higher possibility of default.
 
-\## Dataset
+**Problem in the Business:** By tackling the problem of loan default prediction, the initiative enables the business to make better lending decisions.
 
-The dataset includes information on various loan applicants, including whether they defaulted on their loans.
+- **Collection:** The dataset that was used includes past data on loan applicants, such as whether or not they experienced loan default. Amount of loan, interest rate, status of loan, and other variables are included in the data.
 
-\## Files in Repository
+## Conclusions
+1. **Loan Amount:** Higher loan amounts are generally associated with a higher risk of default.
+2. **Interest Rate:** Loans with higher interest rates tend to have a greater likelihood of default.
+3. **Credit History:** Applicants with a poor credit history are more likely to default on their loans.
+4. **Loan Purpose:** Certain loan purposes, such as small business loans, show a higher default rate compared to others.
 
-\- \`main.py\`: Python code for data cleaning, EDA, and visualization.
+## Technologies Used
+- **Python** - version 3.x
+- **Pandas** - version 1.x
+- **Seaborn** - version 0.11.x
+- **Matplotlib** - version 3.x
 
-\- \`presentation.pdf\`: Summary of the analysis, including key findings.
+## Acknowledgements
+The need to enhance consumer finance financial decision-making served as the impetus for this initiative. The Lending Club platform provided the dataset for this study. The documentation and tutorials from the Pandas and Seaborn libraries served as the foundation for this project. 
 
-\- \`README.md\`: Overview of the project and insights.
 
-\## Key Insights
+## Contact
+Created by [sarbjeetparija405@gmail.com] - feel free to contact me!
 
-\- \*\*Loan Amount\*\*: Higher loan amounts are associated with an increased risk of default.
 
-\- \*\*Interest Rate\*\*: Higher interest rates correlate with a greater likelihood of loan default.
+
